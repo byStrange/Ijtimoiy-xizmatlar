@@ -1,4 +1,4 @@
-/*root.css*/
+	/*root(1).css*/
 @font-face{
 	font-family: "Gilroy";
 	src: url('../fonts/Gilroy-medium.ttf');
@@ -16,7 +16,7 @@ div.modal-cont{
 	align-items: flex-start;
 	background: rgba(0,0,0,.1);
 	backdrop-filter: blur(2px);
-	z-index: 55555;
+	z-index: 1000;
 }
 div.modal-bx{
 	margin-top: 50px;
@@ -28,8 +28,10 @@ div.modal-bx{
 	background: rgba(130,130,130,.7);
 	border-radius: 5px;
 	position: fixed;
-	opacity: 0;
+	z-index: 55555;
 	backdrop-filter:blur(3px);
+	transition: 350ms;
+	opacity: 0;
 }
 form.form{
 	width: 90%;
@@ -38,7 +40,8 @@ form.form{
 	flex-wrap: wrap;
 }
 .form-group{
-	width: 49%;
+	width: 100%;
+	margin-bottom: 20px;
 }
 .label{
 	font-family: Gilroy, "Helvetica Neue", Helvetica, sans-serif;
@@ -63,9 +66,10 @@ select{
 	align-items: center;
 	font-size: 50px;
 	opacity: .95;
-	transition: 350ms;
+	transition:background 100ms;
 	cursor: pointer;
 	border-top-right-radius: 5px;
+	border: 1px solid rgba(255,20,30,.2);
 }
 .close-modal::selection{
 	background: transparent;
@@ -76,7 +80,15 @@ select{
 }
 .close-modal:active{
 	padding-top: 2px;
-	background: rgba(255,12,25,.8);
+	transform: scale(.95,.95);
+}
+.close-modal:focus{
+	background: rgba(255,0,0,.8);
+	color: rgba(255,255,255,.7);
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	outline: 0.15rem solid rgba(28, 110, 164, .50);
+	border: none;
+
 }
 @media screen and (max-width: 834px) and (min-width: 560px){
 	.form{
@@ -84,6 +96,9 @@ select{
 	}
 	.form-group{
 		width: 100%;
+	}
+	.modal-bx{
+		width: 80% !important;
 	}
 }
 @media screen and (max-width: 559px){
@@ -99,4 +114,8 @@ select{
 	.modal-bx{
 		width: 80% !important
 	}
+	.row > div {
+		margin-bottom: 15px
+	}
+
 } 

@@ -1,6 +1,5 @@
 .row.m-row{
 	width: 350px !important;
-	border: 1px solid red;
 }
 .container-fluid{
 	display: flex;
@@ -37,7 +36,6 @@
 	align-items: center;
 }
 .col-md-6{
-	border: 1px solid red;
 	display: flex;
 	justify-content: center;
 }
