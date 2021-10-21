@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/root.css">
+<div class="modal-cont">
+	<div class="modal-bx">		
+		<form class="form">
+			<div class="form-group">
+				<label for="select" class="label">Ariza turi</label>
+				<select name="" id="" class="form-control" required="">
+					<option value="" selected="" disabled="">Tanlang:</option>
+					<option>Sihatgoh uchun ariza</option>
+					<option>Tibbiy buyum uchun ariza</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="series" class="label">Passport seriya</label>
+				<input type="text" class="form-control" id="series" placeholder="Passport seriyasi" required="" pattern="[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
+			</div>
+			<div class="form-group">
+				<label for="num" class="label">Telefon raqamingiz</label>
+				<input type="text" class="form-control input-element" id="num" placeholder="Telefon raqami" required="" pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" required="">
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Arizani tekshirish" class="btn btn-primary" style="margin-top: 50px">
+			</div>
+		</form>
+			<span class="close-modal" id="close" onclick="closer()">&times</span>
+	</div>
+</div>
+<script src="js/cleave.min.js"></script>
+<script src="js/cleave-phone.i18n.js"></script>
+<script src="js/lib.js"></script>	
+<script src="js/anime.js"></script>
+<script src="js/root.js"></script>
+<script>
+	window.onclick = function(e) {
+		if(e.clientY > 500) {
+			opener()
+		}
+		else {
+			closer()
+		}
+	}
+</script>

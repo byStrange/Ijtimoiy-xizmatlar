@@ -1,2 +1,1 @@
-# Ijtimoiy-xizmatlar
-Project
+# Project-ijtimoiy-xizmatlar

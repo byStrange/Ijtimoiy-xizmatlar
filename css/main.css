@@ -1,0 +1,734 @@
+@font-face{	
+
+	font-family: "Gilroy";
+	src: url('../fonts/Gilroy-medium.ttf');
+}
+.container{	
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+img{	
+
+	-webkit-user-select: none;
+}
+::-webkit-scrollbar{	
+
+	display: none;
+}
+div.row .el-circle{	
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;	
+	background: #F6D582;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+	position: relative;
+}
+.img-small{	
+
+	width: 60px;
+	margin-top: 10px;
+}
+.img-big{	
+
+	width: 100px;
+}
+.el-1::after{	
+
+	content: "Sixatgohlar uchun yo'llanmalar";
+	position: absolute;
+	top: 110%;
+	width: 225px;
+	border-bottom: 5px solid #F6D582;
+	border-radius: 5px;
+	height: 56px;
+	font-family: "Gilroy"
+}
+.el-2::after{	
+
+	content: "Nogironlar uchun  Protezlar bo'limi";
+	position: absolute;
+	top: 110%;
+	width: 232px;
+	border-bottom: 5px solid #F6D582;
+	border-radius: 5px;
+	height: 56px;
+	font-family: "Gilroy";
+	text-align: center;
+}
+.el-3::after{	
+
+	content: "Qariyalar uchun  Sayohatlar bo'limi";
+	position: absolute;
+	top: 110%;
+	width: 225px;
+	border-bottom: 5px solid #F6D582;
+	text-align: center;
+	border-radius: 5px;
+	height: 56px;
+	font-family: "Gilroy"
+}
+section {	
+
+	min-height: 100vh;
+}
+
+.--m--{	
+
+	flex-direction: column;
+	min-height: 100vh;
+	padding-top: 100px	
+}
+div.text-header h1.text-heading {	
+
+	font-family: 'Gilroy';
+	font-weight: 600;
+	text-transform: uppercase;
+}
+div.row{	
+
+	width: 100%;
+}
+.text{	
+
+	font-family: 'Gilroy';
+	font-weight: 500;
+}
+._just_center{	
+
+	justify-content: center;
+}
+div.img-container{	
+
+	margin-top: 200px;
+	width: 400px;
+	height: 300px;
+  	border-bottom-left-radius: 60%;
+  	border-top-left-radius: 30%;
+  	border-bottom-right-radius: 20%;
+  	border-top-right-radius: 20%;
+  	background: #F6D582;
+}
+.m-box{	
+
+	display: flex;
+	justify-content: center;
+}
+.text-1{	
+
+	font-family: Arial
+}
+.spaced-between{	
+
+	justify-content: space-between;
+}
+.img-resized{	
+
+	width: 350px;
+	height: 600px;
+	margin-top: -150px; 
+}
+.description-content{	
+
+	text-align: left;
+	width: 300px;
+	height: 350px;
+	margin-top: 20vh;
+	padding-left: 25px;
+}
+.text-medium{	
+
+	font-size: 25px;
+	font-weight: 600;
+}
+.text-ex-md{	
+
+	font-size: 17px;
+}
+.text-big{	
+
+	font-size: 50px;
+	font-weight: 650;
+}
+.text-bold{	
+
+	font-weight: 600; 
+}
+.text-sm{	
+
+	font-size: 13px;
+}
+.text-left{	
+
+	text-align: left;
+}
+.submit .btn{	
+
+	background: #F6D582;
+	width: 200px;
+	box-shadow: none;
+} 
+.td-un{	
+
+	text-decoration: underline;
+}
+.-simple-link{	
+
+	color: #212529;
+	word-wrap: break-word;				
+}
+.-simple-link:hover{	
+
+	opacity: 1;
+	color: #212529;
+
+}
+.rtl{	
+
+	border-top-right-radius: 60%  !important;
+  	border-bottom-right-radius: 30% !important;
+  	border-top-left-radius: 20% !important;
+  	border-bottom-left-radius: 20% !important;
+}
+.area-3{	
+
+	min-height: 60vh;
+	background: #F6D582;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	transform: scale(.9,.9);
+	border: 1px solid #c8ac66;
+	padding: 10px;
+}
+.submit-s .more {	
+
+	float: left;
+}
+.img-container-type-1 {	
+
+	margin-top: 5vh;
+	margin-left: 5vh;
+	width: 90%;
+	height: 300px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background: #F6D582;
+	position: relative;
+}
+.last-catalog{	
+
+	position: relative;
+	margin-bottom: 350px !important;
+}
+.last-catalog::after{	
+
+	content: "Protezlar va Ortepediyalar Bo'limi";
+	position: absolute;
+	top: 130%;
+	left: 40%;
+	width: 160px;
+	height: 40px;
+	border-bottom: 5px solid #F6D582;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold; 
+}
+/* div.imager{	
+
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	overflow:hidden;
+	padding: 0;
+	border: 1px solid red;
+
+} */
+.img-type-2{	
+
+	width: 400px;
+	height: 300px;	
+	transform: scale(.7,.7) translate(-50px, -40px);
+	position: absolute;
+	top: 15px;
+	left: 0;	
+}
+.img-container-type-1 .-img-btn{	
+
+	position: absolute;
+	top: 84%;
+	left: 50%;
+	transform: translate(-50%,-0%);
+}
+.img-container-type-2 {	
+
+		margin-left: 5vh;
+		width: 90%;
+		height: 300px;
+		background: #F6D582;
+		position: relative;
+	}
+/* div.imager:hover{	
+
+	background-size: 125%;
+	background-position: -15px -60px;
+} */
+.last{	
+
+	margin-bottom: 150px;
+}
+.text-description{	
+
+	margin-top: 170px;
+}
+.ml-5{	
+
+	transform: translateX(-70px);
+}
+div.-cont-news{	
+
+	width: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+div.-cont-news .-s-{	
+
+	flex-direction: column;
+	margin: 0;
+	align-items: center;
+	background: #F6D582;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	padding-top: 15px;
+	width: 100%;
+	position: relative;
+	min-height: 590px;
+}
+div.-s- .last {	
+
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	height: 400px;
+	padding: 0;	
+	position: absolute;
+	top: 130px;
+}
+div.-s- .last .row  {	
+
+	justify-content: space-between;
+	width: 100%;
+	margin: 0
+}
+div.-s- .last .row .col-3.-box- {	
+
+	width: 250px;
+	height: 100%;
+	padding: 0;
+}
+.-box- .row .col-4{	
+
+	width: 100%;
+	height: 150px;
+	margin: 0;
+	background: #C4C4C4;
+}
+.-box- .row .col-8{	
+
+	min-height: 250px;
+	width: 100%;
+	margin: 0;
+	padding-top: 8px;
+	text-align: justify;
+	padding: 0;	
+}
+.rm-t{	
+
+	margin-top: 0;
+}
+section.footer{	
+
+	min-height: 30vh;
+	background: #6F8694;
+	margin-top: 100px;
+	padding-top: 15px;
+}
+section.footer .col-sm-3{	
+
+	text-align: left;
+	padding: 0;
+}
+ul {	
+
+	margin: 0
+}
+ul > li {	
+
+	list-style: none;
+	margin: 0;
+}
+.link{	
+
+	text-decoration: none;
+	color: #fff;
+	text-align: justify;
+}
+.link.title{	
+
+	font-weight: normal;
+	font-size: 20px !important;
+	opacity: 1;
+}
+.link{	
+
+	font-size: 14px !important;
+	font-weight: lighter;
+	opacity: 0.7;
+	transition: 100ms !important;
+}
+.link:hover{	
+
+	opacity: 1;
+	color: #f8f8f8;
+}
+/*input[type="text"]{	
+
+	border:none;
+	background: transparent;
+	outline: none;
+	display: inline-block;
+	border: 1px solid #F6D582;
+	border-radius: 5px;
+	padding: 10px 5px;
+	margin-left:  -180px;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	background: rgba(246,213,130,.7	);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+input::placeholder{	
+
+	font-size: 13px !important;
+	opacity: .7;
+	text-transform: lowercase !important;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+input:focus{	
+
+	z-index: -50;
+}*/
+/*
+desktop
+*/
+@media screen and (min-width: 1400px) {	
+	
+	.img-type-2{	
+
+		width: 650px !important; 
+	}
+}
+@media screen and (min-width: 1200px) {	
+
+	div.row .description-content{	
+
+		margin-left: 200px;
+		margin-top: 200px;
+	}
+	.mr-l{	
+
+		margin-right: 100px;
+		margin-left: 0;	
+	}
+	.img-type-2{	
+
+		width: 550px;
+	}
+	.h2{	
+
+		font-size: 70px !important;
+	}
+}
+/*
+lg 
+*/
+@media screen and (max-width: 1199px ) and (min-width: 992px) {	
+
+	div.row .el-circle {	
+
+		width: 190px;
+		height: 190px
+	}
+	div.row{	
+
+		width: 85%;
+	}
+	div.description-content{	
+
+		padding: 40px;
+	}
+	.last-catalog{	
+
+		margin-bottom: 300px !important;
+	}
+	.ml-5{	
+
+		transform: translateX(0);
+	}
+	.nav-link{	
+
+		font-size: 15px;
+		font-weight: 100;
+	}
+	.img-type-2{	
+
+		width: 343px
+	}
+	.img-type-3{	
+
+		width: 400px	
+	}
+	.h2{	
+
+		font-size: 60px !important;
+	}
+
+}
+/*
+md
+*/
+@media screen and (max-width: 991px) and (min-width: 768px ) {	
+
+	div.row .description-content{	
+
+		margin-top: 40px;
+	}
+
+	div.row .img-container{	
+
+		width: 350px;
+		height: 300px;
+		margin-top: 50px;
+	}
+	div.row .el-circle{	
+
+		margin-bottom: 100px;
+	}
+	.last-catalog{	
+
+		margin-bottom: 200px !important;
+	}
+	.last-catalog::after{	
+
+		top: 115%;
+	}
+	.ml-5{	
+
+		transform: translateX(0);
+	}
+	.img-type-2{	
+
+		width: 365px;
+	}
+	div.-cont-news .-s-{	
+
+		min-height:1000px;
+	}
+	.last-news{	
+
+		margin-left:  200px;
+	}
+	.h2{	
+
+		font-size: 50px !important;
+	}
+}
+/*
+small 
+*/
+
+
+@media screen and (max-width: 767px) and (min-width: 566px) {
+	.nav-link{	
+
+		font-size: 13px; 
+		word-wrap: normal;
+	}
+	div.row .el-circle{	
+
+		margin-bottom: 100px;
+	}
+	.-sm{	
+
+		flex-direction: column !important;
+	}
+	div.row .description-content{	
+
+		margin-left: 50px;
+		margin-top: 40px;
+	}
+	.reverse{	
+
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;	
+	}
+	div.row .img-container .img-resized{	
+
+		transform: scale(0.7,.7);
+	}
+	div.img-container{	
+
+		margin-top: 0 !important;
+	}
+	.first-catalog{	
+
+/*		margin-top: 150pxc
+*/	}
+	.last-catalog{	
+
+		margin-bottom: 150px !important;
+	}
+	.last-catalog::after{	
+
+		top: 110%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.ml-5{	
+
+		transform: translateX(0);
+	}
+	.resp-mt{	
+
+		margin-top: 50px !important;
+	}
+	.no-mg{	
+
+		margin-bottom: 0 !important
+	}
+	.img-type-2{	
+
+		width: 300px
+	}
+	.img-container-type-1{	
+
+		width: 230px;
+		transform: translateX(-15px);
+	}
+	div.-cont-news .-s-{	
+
+		min-height: 1350px
+	}
+	div.-s- .last {	
+
+		left: 140px;
+	}
+	.img-container-type-2{	
+
+		transform: translateX(-35px);
+	}
+	.h2{	
+
+		font-size: 40px !important;
+	}
+}
+/*
+xs
+*/
+@media screen and (max-width: 565px) {	
+
+	div.row .el-circle{	
+
+		margin-bottom: 40px;
+		transform: scale(.7,.7);
+	}
+	div.row .description-content{	
+
+		margin-left: 50px;
+		margin-top: 90px;
+	}
+	.reverse{	
+
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;	
+	}	
+	div.row .img-container .img-resized{	
+
+		transform: scale(0.7,.7);
+	}
+	div.img-container{	
+
+		margin-top: 0 !important;
+	}
+	.first-catalog{	
+
+		/*margin-top: 150px*/
+	}
+	.last-catalog{	
+
+		margin-bottom: 150px !important;
+	}
+	.last-catalog::after{	
+
+		top: 110%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.resp-mt {	
+
+		margin-top: 50px;
+	}
+	.ml-5{	
+
+		transform: translateX(0);
+	}
+	.no-mg-h{	
+
+		margin: 0 !important
+	}
+	.img-type-2{	
+
+		width :500px
+	}
+
+	div.-cont-news .-s-{	
+
+		min-height: 1350px
+	}
+	div.-s- .last {	
+
+		left: 140px;
+	}
+	.no-tr{	
+
+		transform: translateX(-70px) !important;
+	}
+	section.footer .col-sm-3{	
+
+		margin-top: 15px;
+	}
+	.img-container-type-2{	
+
+		transform: translateX(-35px);
+	}
+	.text-description{	
+
+		margin-top: 70px;
+	}
+	.h2{	
+
+		font-size: 35px !important; 
+	}
+}
+
+}
+// 04.10.2021
+// 21 : 07

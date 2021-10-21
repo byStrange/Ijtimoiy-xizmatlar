@@ -1,0 +1,128 @@
+/* ============================================================================= */
+/*                CREATED BY QOSIMOV RAHMATULLO AND MADAMINOV NURILLO            */
+/* ============================================================================= */
+ 
+ @font-face {
+ 	font-family: 'Gilroy';
+ 	src: url("../fonts/Gilroy-Medium.ttf");
+ }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Gilroy' !important;
+	background: #C4CFD5;
+}
+video {
+	width: 100%;
+	position: absolute;
+	z-index: -10;
+}
+.image {
+	width: 40px;
+	height: auto;
+	margin-left: 20px
+}
+.navbar {
+	margin-bottom: 70px;
+	border-bottom: 1px solid #fff;
+}
+.navbar-nav{
+	position: relative;
+}
+a > label.fa.fa-search{
+	position: absolute;
+	left: 200px;
+}
+.nav-link {
+	color: #fff !important;
+	margin-left: 15px;
+	font-family: 'Gilroy' !important;
+	margin-top: 10px;
+	opacity: 85%;
+	filter: brightness(95%);
+}
+.nav-link:hover{
+	opacity: 1;
+	filter: brightness(100%);
+}
+.navbar-nav {
+	margin-left: 20px;
+}
+.h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 60px !important;
+}
+.buttons {
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+	justify-content: center;
+}
+.--btn {
+	margin-left: 10px;
+}
+.--btn:first-child {
+	color: #fff;
+	background-color: rgba(16, 74, 121, 0.562);
+}
+.noHover:hover {
+	background-color: rgba(16, 74, 121, 0.562) !important;
+}
+.p {
+	color: #fff;
+	margin-top: 70px !important;
+	font-size: 20px;
+	text-align: center;
+}
+section.main-header{
+	min-height: 90vh !important
+}
+.myVideo {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	object-fit: cover;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+/* ============================================================================= */
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+	.h2{
+		font-size: 70px
+	}
+}
+/* lg */
+@media screen and (max-width: 1199px ) and (min-width: 992px){
+	.h2{
+		font-size: 50px
+	}
+}
+/* md */
+@media screen and (max-width: 991px) and (min-width: 768px ) {
+	.h2{
+		font-size: 40px
+	}
+}
+/* small */
+@media screen and (max-width: 767px) and (min-width: 566px) {
+	.h2{
+		font-size: 40px
+	}
+}
+/* xs */
+@media screen and (max-width: 565px) {
+	.h2{
+		font-size: 35px
+	}
+}
+
+/* ============================================================================= */
